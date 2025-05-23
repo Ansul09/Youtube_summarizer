@@ -3,6 +3,7 @@
 This project is a YouTube video summarizer built with Streamlit, OpenAI GPT, and the YouTube Transcript API. It allows users to input a YouTube video URL, automatically fetches the transcript, and generates a concise, point-based summary using OpenAI's GPT model — helping users save time while retaining all key insights.
 
 ✨ Features:
+
   🧠 Generates concise summaries of YouTube videos in under 250 words
 
   📄 Extracts transcripts automatically using the video URL
@@ -13,7 +14,8 @@ This project is a YouTube video summarizer built with Streamlit, OpenAI GPT, and
 
   🔐 Secure API key management via .env file
 
-🛠️ Tech Stack
+🛠️ Tech Stack:
+
   Streamlit – for building the interactive web UI
 
   OpenAI GPT-3.5 – for generating natural language summaries
@@ -22,7 +24,8 @@ This project is a YouTube video summarizer built with Streamlit, OpenAI GPT, and
 
   python-dotenv – for managing API keys securely
 
-🚀 How It Works
+🚀 How It Works:
+
   User inputs a YouTube video URL.
 
   The app fetches the transcript using youtube-transcript-api.
